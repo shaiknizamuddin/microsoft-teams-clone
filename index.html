@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+</head>
+
+<body>
+    <div class="navbar">
+        <span class="navigation-icon">
+            <span class="material-icons">
+                keyboard_arrow_left
+            </span>
+            <span class="material-icons">
+                keyboard_arrow_right
+            </span>
+        </span>
+        <div class="search-box">
+            <input type="text" name="search" id="search" placeholder="search here" />
+            <div class="search-suggestion"></div>
+        </div>
+        <div class="profile-section">
+            <a href="#" id="orgn">Organization</a>
+            <span class="material-icons org-arrow">
+                keyboard_arrow_down
+            </span>
+            <div class="oranisation-selection"></div>
+            <img src="../dp.jpg" alt="dp" />
+        </div>
+    </div>
+    <div class="flex-container">
+        <div class="menubar">
+            <div class="menu-icons">
+                <ul>
+                    <li>
+                        <div class="material-icons">
+                            notifications
+                        </div>
+                        <div>
+                            <a href="#">Activity</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="material-icons">
+                            sms
+                        </div>
+                        <div>
+                            <a href="#">Chat</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="material-icons">
+                            groups
+                        </div>
+                        <div>
+                            <a href="#">Teams</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="material-icons">
+                            calendar_today
+                        </div>
+                        <div>
+                            <a href="#">Calander</a>
+                        </div>
+                    </li>
+                    <li class="extra-icon">
+                        <div class="material-icons">
+                            school
+                        </div>
+                        <div>
+                            <a href="#">Learn</a>
+                        </div>
+                    </li>
+                    <li class="extra-icon">
+                        <div class="material-icons">
+                            cast_for_education
+                        </div>
+                        <div>
+                            <a href="#">Lex</a>
+                        </div>
+                    </li>
+                    <li class="extra-icon">
+                        <div class="material-icons">
+                            call
+                        </div>
+                        <div>
+                            <a href="#">Call</a>
+                        </div>
+                    </li>
+                    <li class="extra-icon">
+                        <div class="material-icons">
+                            description
+                        </div>
+                        <div>
+                            <a href="#">Files</a>
+                        </div>
+                    </li>
+                    <li class="more-icons">
+                        <div class="material-icons">
+                            more_horiz
+                        </div>
+                        <div>
+                            <a href="#"></a>
+                        </div>
+                    </li>
+                    <li class="help">
+                        <div class="material-icons">
+                            help
+                        </div>
+                        <div>
+                            <a href="#">Help</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="chat-list">
+                <div class="chat-filter">
+                    <div class="menu-top-section">
+                        <span class="chat">
+                            <a href="#">Chat</a>
+                        </span>
+                        <span class="contacts">
+                            <a href="#">Contacts</a>
+                        </span>
+                        <span class="material-icons filter-icon">
+                            filter_alt
+                        </span>
+                    </div>
+                    <div class="filter__section">
+                        <input type="text" placeholder="Filter by name" id="filter-chat" />
+                        <span class="filter__icns">
+                            <span class="material-icons">
+                                more_horiz
+                            </span>
+                            <span class="material-icons">
+                                close
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                <div class="chat-body">
+                    <div class="user-chat">
+                        <div>
+                            <img src="../dp.jpg" alt="dp" />
+                        </div>
+                        <div class="usr-card">
+                            <div class="username">
+                                <span class="name">Nizamuddin</span>
+                                <span class="date">11/28</span>
+                            </div>
+                            <div class="user-message">
+                                Search the world's information, including webpages, images,
+                                videos and more. Google has many special features to help you
+                                find exactly what you're looking
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-chat">
+                        <div>
+                            <img src="../dp.jpg" alt="dp" />
+                        </div>
+                        <div class="usr-card">
+                            <div class="username">
+                                <span class="name">Nizamuddin</span>
+                                <span class="date">11/28</span>
+                            </div>
+                            <div class="user-message">
+                                Search the world's information, including webpages, images,
+                                videos and more. Google has many special features to help you
+                                find exactly what you're looking
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-chat">
+                        <div>
+                            <img src="../dp.jpg" alt="dp" />
+                        </div>
+                        <div class="usr-card">
+                            <div class="username">
+                                <span class="name">Nizamuddin</span>
+                                <span class="date">11/28</span>
+                            </div>
+                            <div class="user-message">
+                                Search the world's information, including webpages, images,
+                                videos and more. Google has many special features to help you
+                                find exactly what you're looking
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-chat">
+                        <div>
+                            <img src="../dp.jpg" alt="dp" />
+                        </div>
+                        <div class="usr-card">
+                            <div class="username">
+                                <span class="name">Nizamuddin</span>
+                                <span class="date">11/28</span>
+                            </div>
+                            <div class="user-message">
+                                Search the world's information, including webpages, images,
+                                videos and more. Google has many special features to help you
+                                find exactly what you're looking
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-chat">
+                        <div>
+                            <img src="../dp.jpg" alt="dp" />
+                        </div>
+                        <div class="usr-card">
+                            <div class="username">
+                                <span class="name">Nizamuddin</span>
+                                <span class="date">11/28</span>
+                            </div>
+                            <div class="user-message">
+                                Search the world's information, including webpages, images,
+                                videos and more. Google has many special features to help you
+                                find exactly what you're looking
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-chat">
+                        <div>
+                            <img src="../dp.jpg" alt="dp" />
+                        </div>
+                        <div class="usr-card">
+                            <div class="username">
+                                <span class="name">Nizamuddin</span>
+                                <span class="date">11/28</span>
+                            </div>
+                            <div class="user-message">
+                                Search the world's information, including webpages, images,
+                                videos and more. Google has many special features to help
+                                you
+                                find exactly what you're looking
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-chat">
+                        <div>
+                            <img src="../dp.jpg" alt="dp" />
+                        </div>
+                        <div class="usr-card">
+                            <div class="username">
+                                <span class="name">Nizamuddin</span>
+                                <span class="date">11/28</span>
+                            </div>
+                            <div class="user-message">
+                                Search the world's information, including webpages,
+                                images,
+                                videos and more. Google has many special features to
+                                help you
+                                find exactly what you're looking
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-chat">
+                        <div>
+                            <img src="../dp.jpg" alt="dp" />
+                        </div>
+                        <div class="usr-card">
+                            <div class="username">
+                                <span class="name">Nizamuddin</span>
+                                <span class="date">11/28</span>
+                            </div>
+                            <div class="user-message">
+                                Search the world's information, including webpages,
+                                images,
+                                videos and more. Google has many special features to
+                                help you
+                                find exactly what you're looking
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-chat">
+                        <div>
+                            <img src="../dp.jpg" alt="dp" />
+                        </div>
+                        <div class="usr-card">
+                            <div class="username">
+                                <span class="name">Nizamuddin</span>
+                                <span class="date">11/28</span>
+                            </div>
+                            <div class="user-message">
+                                Search the world's information, including
+                                webpages, images,
+                                videos and more. Google has many special
+                                features to help you
+                                find exactly what you're looking
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-chat">
+                        <div>
+                            <img src="../dp.jpg" alt="dp" />
+                        </div>
+                        <div class="usr-card">
+                            <div class="username">
+                                <span class="name">Nizamuddin</span>
+                                <span class="date">11/28</span>
+                            </div>
+                            <div class="user-message">
+                                Search the world's information, including
+                                webpages, images,
+                                videos and more. Google has many special
+                                features to help you
+                                find exactly what you're looking
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-chat">
+                        <div>
+                            <img src="../dp.jpg" alt="dp" />
+                        </div>
+                        <div class="usr-card">
+                            <div class="username">
+                                <span class="name">Nizamuddin</span>
+                                <span class="date">11/28</span>
+                            </div>
+                            <div class="user-message">
+                                Search the world's information,
+                                including webpages, images,
+                                videos and more. Google has many special
+                                features to help you
+                                find exactly what you're looking
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-chat">
+                        <div>
+                            <img src="../dp.jpg" alt="dp" />
+                        </div>
+                        <div class="usr-card">
+                            <div class="username">
+                                <span class="name">Nizamuddin</span>
+                                <span class="date">11/28</span>
+                            </div>
+                            <div class="user-message">
+                                Search the world's information,
+                                including webpages, images,
+                                videos and more. Google has many
+                                special features to help you
+                                find exactly what you're looking
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-chat">
+                        <div>
+                            <img src="../dp.jpg" alt="dp" />
+                        </div>
+                        <div class="usr-card">
+                            <div class="username">
+                                <span class="name">Nizamuddin</span>
+                                <span class="date">11/28</span>
+                            </div>
+                            <div class="user-message">
+                                Search the world's information,
+                                including webpages, images,
+                                videos and more. Google has many
+                                special features to help you
+                                find exactly what you're looking
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-chat">
+                        <div>
+                            <img src="../dp.jpg" alt="dp" />
+                        </div>
+                        <div class="usr-card">
+                            <div class="username">
+                                <span class="name">Nizamuddin</span>
+                                <span class="date">11/28</span>
+                            </div>
+                            <div class="user-message">
+                                Search the world's
+                                information, including
+                                webpages, images,
+                                videos and more. Google has
+                                many special features to
+                                help you
+                                find exactly what you're
+                                looking
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-chat">
+                        <div>
+                            <img src="../dp.jpg" alt="dp" />
+                        </div>
+                        <div class="usr-card">
+                            <div class="username">
+                                <span class="name">Nizamuddin</span>
+                                <span class="date">11/28</span>
+                            </div>
+                            <div class="user-message">
+                                Search the world's
+                                information, including
+                                webpages, images,
+                                videos and more. Google
+                                has many special
+                                features to help you
+                                find exactly what you're
+                                looking
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-chat">
+                        <div>
+                            <img src="../dp.jpg" alt="dp" />
+                        </div>
+                        <div class="usr-card">
+                            <div class="username">
+                                <span class="name">Nizamuddin</span>
+                                <span class="date">11/28</span>
+                            </div>
+                            <div class="user-message">
+                                Search the world's
+                                information,
+                                including webpages,
+                                images,
+                                videos and more.
+                                Google has many
+                                special features to
+                                help you
+                                find exactly what
+                                you're looking
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-container">
+            <div class="user-detail-section">
+                <img src="../dp.jpg" alt="dp" />
+                <div class="username">
+                    RavichandraReddy Yadiki
+                </div>
+                <div class="extras">
+                    <div class="title-chat"><a href="#">Chat</a></div>
+                    <div class="title-files"><a href="#">Files</a></div>
+                </div>
+                <div class="calling-options">
+                    <span class="material-icons" title="Audio call">
+                        call
+                    </span>
+                    <span class="material-icons" title="Video call">
+                        videocam
+                    </span>
+                    <span class="material-icons" title="Screen Sharing">
+                        present_to_all
+                    </span>
+                    <span class="material-icons" title="Add People">
+                        group_add
+                    </span>
+                </div>
+            </div>
+            <div class="user-chat-section">
+                <div class="message-container">
+                    <div class="message-sent">
+                        <div class="timestamp">11/27
+                            7:21 PM</div>
+                        <div class="actual-message">
+                            This message has been
+                            sent</div>
+                    </div>
+                    <div class="message-received">
+                        <div class="sender-details">
+                            <span class="sender-name">RavichandraReddy Yadiki</span>
+                            <span class="timestamp">11/27 7:21 PM</span>
+                        </div>
+                        <div class="actual-message">
+                            This message has been
+                            received</div>
+                    </div>
+                    <div class="message-sent">
+                        <div class="timestamp">11/27
+                            7:21 PM</div>
+                        <div class="actual-message">
+                            This message has been
+                            sent</div>
+                    </div>
+                    <div class="message-received">
+                        <div class="sender-details">
+                            <span class="sender-name">RavichandraReddy Yadiki</span>
+                            <span class="timestamp">11/27 7:21 PM</span>
+                        </div>
+                        <div class="actual-message">
+                            This message has been
+                            received</div>
+                    </div>
+                    <div class="message-received">
+                        <div class="sender-details">
+                            <span class="sender-name">RavichandraReddy Yadiki</span>
+                            <span class="timestamp">11/27 7:21 PM</span>
+                        </div>
+                        <div class="actual-message">
+                            This message has been
+                            received</div>
+                    </div>
+                    <div class="message-received">
+                        <div class="sender-details">
+                            <span class="sender-name">RavichandraReddy Yadiki</span>
+                            <span class="timestamp">11/27 7:21 PM</span>
+                        </div>
+                        <div class="actual-message">
+                            This message has been
+                            received</div>
+                    </div>
+                    <div class="message-sent">
+                        <div class="timestamp">11/27
+                            7:21 PM</div>
+                        <div class="actual-message">
+                            This message has been
+                            sent</div>
+                    </div>
+                    <div class="message-received">
+                        <div class="sender-details">
+                            <span class="sender-name">RavichandraReddy Yadiki</span>
+                            <span class="timestamp">11/27 7:21 PM</span>
+                        </div>
+                        <div class="actual-message">
+                            This message has been
+                            received</div>
+                    </div>
+                    <div class="message-sent">
+                        <div class="timestamp">11/27
+                            7:21 PM</div>
+                        <div class="actual-message">
+                            This message has been
+                            sent</div>
+                    </div>
+                </div>
+            </div>
+            <div class="message-compose-section">
+                <input type="text" name="sendMessage" id="sendMessage" placeholder="Type a new message"
+                    autocomplete="off" />
+
+                <div class="message-options">
+                    <span class="material-icons" title="Priority">
+                        priority_high
+                    </span>
+                    <span class="material-icons" title="attach files">
+                        attach_file
+                    </span>
+                    <span class="material-icons" title="schedule meeting">
+                        today
+                    </span>
+                    <span class="material-icons" title="notes">
+                        notes
+                    </span>
+                    <span class="material-icons" title="add task">
+                        add_task
+                    </span>
+                    <span class="material-icons" title="praise">
+                        emoji_objects
+                    </span>
+                    <span class="material-icons send__message" title="Send message">
+                        send
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
